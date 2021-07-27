@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_large" android:layout_marginRight="@dimen/spacing_large" android:foreground="?selectableItemBackground" android:layout_marginHorizontal="@dimen/spacing_large"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/color_persimmon" android:id="@id/headerTextView" android:paddingLeft="@dimen/spacing_large" android:paddingTop="@dimen/spacing_large" android:paddingRight="@dimen/spacing_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_medium" android:drawablePadding="@dimen/spacing_medium" android:textIsSelectable="false" android:paddingHorizontal="@dimen/spacing_large" app:drawableStartCompat="@drawable/ic_compass" app:drawableTint="@color/color_persimmon" style="@style/Theme.StopCovid.Link.Big" />
+        <TextView android:textAppearance="@style/TextAppearance.StopCovid.Caption.Small" android:id="@id/subheader_text_view" android:paddingLeft="@dimen/spacing_large" android:paddingRight="@dimen/spacing_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_large" android:textIsSelectable="false" android:paddingHorizontal="@dimen/spacing_large" />
+        <include android:id="@id/localInclude" android:visibility="gone" layout="@layout/include_numbers" />
+        <include android:id="@id/franceInclude" layout="@layout/include_numbers" />
+        <include android:id="@id/action" layout="@layout/item_action" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

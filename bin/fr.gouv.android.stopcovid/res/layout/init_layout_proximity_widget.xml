@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:theme="@style/Theme.StopCovid.Widget" android:id="@id/proximityWidgetLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_proximity_widget_top" android:padding="@dimen/spacing_medium" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/logoImageView" android:layout_width="@dimen/logo_proximity_widget_size" android:layout_height="@dimen/logo_proximity_widget_size" android:src="@mipmap/ic_launcher" android:importantForAccessibility="no" android:layout_marginEnd="@dimen/spacing_medium" />
+            <TextView android:id="@id/titleWidgetTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="false" style="@style/Widget.StopCovid.Widget.TextView.Title" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/riskLayout" android:background="@drawable/bg_widget_risk_0" android:paddingLeft="@dimen/spacing_medium" android:paddingTop="@dimen/spacing_medium" android:paddingRight="@dimen/spacing_medium" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/riskImageView" android:visibility="gone" android:layout_width="@dimen/image_risk_widget_size" android:layout_height="@dimen/image_risk_widget_size" android:src="@drawable/health_card" android:layout_alignParentBottom="true" android:importantForAccessibility="no" />
+            <LinearLayout android:orientation="vertical" android:id="@id/textLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/spacing_medium" android:layout_marginEnd="@dimen/spacing_medium" android:layout_toEndOf="@id/riskImageView">
+                <TextView android:id="@id/riskTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_medium" android:textIsSelectable="false" style="@style/Widget.StopCovid.Widget.Proximity.TextView.Risk" />
+                <TextView android:id="@id/infoTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_small" android:textIsSelectable="false" style="@style/Widget.StopCovid.Widget.Proximity.TextView.Info" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/clickableWidgetLayout" android:background="@drawable/ripple_widget_proximity" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

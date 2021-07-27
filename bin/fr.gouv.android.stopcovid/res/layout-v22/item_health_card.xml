@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:theme="@style/ShapeAppearance.StopCovid.MediumComponent.Color" android:id="@id/cardView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_large" android:layout_marginRight="@dimen/spacing_large" android:layout_marginHorizontal="@dimen/spacing_large"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/rootLayout" android:paddingTop="@dimen/spacing_large" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/contentLayout" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/item_health_card_content" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

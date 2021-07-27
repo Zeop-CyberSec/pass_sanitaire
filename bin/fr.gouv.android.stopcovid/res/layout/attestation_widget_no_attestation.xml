@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:theme="@style/Theme.StopCovid.Widget" android:id="@id/certificateWidgetLayout" android:background="@drawable/bg_widget" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="0.0dip" android:paddingEnd="@dimen/spacing_large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/mainImageView" android:layout_width="@dimen/image_attestation_widget_size" android:layout_height="@dimen/image_attestation_widget_size" android:layout_marginTop="@dimen/spacing_medium" android:src="@drawable/attestation_card" android:importantForAccessibility="no" />
+    <TextView android:id="@id/mainTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:textIsSelectable="false" android:layout_marginStart="@dimen/spacing_large" android:layout_toEndOf="@id/mainImageView" style="TextAppearance.StopCovid.Title" />
+</RelativeLayout>

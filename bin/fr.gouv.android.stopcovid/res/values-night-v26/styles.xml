@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.StopCovid.Widget.Attestation.TextView.Date" parent="@style/Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:autoSizeMinTextSize">@dimen/date_widget_attestation_min_font_size</item>
+        <item name="android:autoSizeMaxTextSize">@dimen/date_widget_attestation_max_font_size</item>
+    </style>
+</resources>

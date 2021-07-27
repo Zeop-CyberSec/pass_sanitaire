@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:theme="@style/ShapeAppearance.StopCovid.MediumComponent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_large" android:layout_marginRight="@dimen/spacing_large" android:foreground="?selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/spacing_large" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/color_persimmon" android:id="@id/header_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_medium" android:drawablePadding="@dimen/spacing_medium" android:textIsSelectable="false" app:drawableStartCompat="@drawable/ic_flag" style="@style/Theme.StopCovid.Link.Big" />
+        <TextView android:textAppearance="@style/TextAppearance.StopCovid.Caption.Small" android:id="@id/subheader_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="false" />
+        <TextView android:textAppearance="@style/TextAppearance.StopCovid.Title.KeyFigure" android:id="@id/figure_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="false" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

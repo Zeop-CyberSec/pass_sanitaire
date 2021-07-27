@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/explanationTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_large" android:textIsSelectable="false" app:layout_constrainedWidth="true" app:layout_constraintBottom_toTopOf="@id/documentPhotoView" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.github.chrisbanes.photoview.PhotoView android:id="@id/documentPhotoView" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/explanationTextView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

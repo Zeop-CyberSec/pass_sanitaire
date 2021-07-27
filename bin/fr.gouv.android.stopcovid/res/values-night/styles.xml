@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AppCompat.DayNight" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="@style/Theme.AppCompat.Dialog" />
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="@style/Theme.AppCompat.Dialog.Alert" />
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="@style/Theme.AppCompat.Dialog.MinWidth" />
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="@style/Theme.AppCompat.DialogWhenLarge" />
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="@style/Theme.AppCompat.NoActionBar" />
+    <style name="Theme.Base.StopCovid.ForceLight" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">?colorSurface</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="actionMenuTextColor">?colorControlNormal</item>
+        <item name="appBarLayoutStyle">@style/Widget.MaterialComponents.AppBarLayout.Surface</item>
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.StopCovid.BottomSheetDialog</item>
+        <item name="colorAccent">?colorPrimary</item>
+        <item name="colorControlNormal">?colorPrimary</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+        <item name="colorOnSecondary">?colorOnPrimary</item>
+        <item name="colorPrimary">@color/color_indigo</item>
+        <item name="colorPrimaryDark">?colorPrimary</item>
+        <item name="colorPrimaryVariant">?colorPrimary</item>
+        <item name="colorSecondary">?colorPrimary</item>
+        <item name="colorSecondaryVariant">?colorSecondary</item>
+        <item name="dividerColor">@color/color_mercury</item>
+        <item name="materialCardViewStyle">@style/Widget.App.CardView</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.StopCovid.MediumComponent</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.StopCovid.SmallComponent</item>
+        <item name="snackbarTextViewStyle">@style/Widget.StopCovid.Snackbar.TextView</item>
+        <item name="toolbarStyle">@style/Widget.StopCovid.Toolbar.Surface</item>
+    </style>
+    <style name="Theme.MaterialComponents.DayNight" parent="@style/Theme.MaterialComponents" />
+    <style name="Theme.MaterialComponents.DayNight.BottomSheetDialog" parent="@style/Theme.MaterialComponents.BottomSheetDialog" />
+    <style name="Theme.MaterialComponents.DayNight.Bridge" parent="@style/Theme.MaterialComponents.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar" parent="@style/Theme.MaterialComponents" />
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge" parent="@style/Theme.MaterialComponents.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog" parent="@style/Theme.MaterialComponents.Dialog" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert" parent="@style/Theme.MaterialComponents.Dialog.Alert" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge" parent="@style/Theme.MaterialComponents.Dialog.Alert.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Bridge" parent="@style/Theme.MaterialComponents.Dialog.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize" parent="@style/Theme.MaterialComponents.Dialog.FixedSize" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize.Bridge" parent="@style/Theme.MaterialComponents.Dialog.FixedSize.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth" parent="@style/Theme.MaterialComponents.Dialog.MinWidth" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth.Bridge" parent="@style/Theme.MaterialComponents.Dialog.MinWidth.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.DialogWhenLarge" parent="@style/Theme.MaterialComponents.DialogWhenLarge" />
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar" parent="@style/Theme.MaterialComponents.NoActionBar" />
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" parent="@style/Theme.MaterialComponents.NoActionBar.Bridge" />
+    <style name="Theme.StopCovid" parent="@style/Theme.Base.StopCovid">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorPrimary">@color/color_malibu</item>
+        <item name="dividerColor">@color/color_mine_shaft</item>
+    </style>
+    <style name="Theme.StopCovid.Widget" parent="@style/Theme.StopCovid.Base.Widget">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="widgetBackgroundColor">@android:color/black</item>
+    </style>
+    <style name="Theme.StopCovid.Widget.Attestation" parent="@style/Theme.StopCovid.Widget">
+        <item name="widgetBackgroundColor">@color/color_indigo</item>
+    </style>
+    <style name="ThemeOverlay.AppCompat.DayNight" parent="@style/ThemeOverlay.AppCompat.Dark" />
+    <style name="Widget.MaterialComponents.ActionBar.PrimarySurface" parent="@style/Widget.MaterialComponents.ActionBar.Surface" />
+    <style name="Widget.MaterialComponents.AppBarLayout.PrimarySurface" parent="@style/Widget.MaterialComponents.AppBarLayout.Surface" />
+    <style name="Widget.MaterialComponents.BottomAppBar.PrimarySurface" parent="@style/Widget.MaterialComponents.BottomAppBar" />
+    <style name="Widget.MaterialComponents.BottomNavigationView.PrimarySurface" parent="@style/Widget.MaterialComponents.BottomNavigationView" />
+    <style name="Widget.MaterialComponents.NavigationRailView.PrimarySurface" parent="@style/Widget.MaterialComponents.NavigationRailView" />
+    <style name="Widget.MaterialComponents.TabLayout.PrimarySurface" parent="@style/Widget.MaterialComponents.TabLayout" />
+    <style name="Widget.MaterialComponents.Toolbar.PrimarySurface" parent="@style/Widget.MaterialComponents.Toolbar.Surface" />
+    <style name="Widget.StopCovid.Button.Danger" parent="@style/Widget.StopCovid.Button.Light">
+        <item name="android:textColor">@color/color_error</item>
+        <item name="backgroundTint">@color/color_error_light</item>
+        <item name="rippleColor">@color/color_error</item>
+    </style>
+    <style name="Widget.StopCovid.Button.Light" parent="@style/Widget.StopCovid.Button">
+        <item name="android:textColor">@color/color_on_primary_light</item>
+        <item name="backgroundTint">@color/color_primary_light</item>
+        <item name="rippleColor">?colorPrimary</item>
+    </style>
+    <style name="Widget.StopCovid.Widget.Attestation.TextView.Date" parent="@style/Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="Widget.StopCovid.Widget.Divider" parent="">
+        <item name="android:background">@color/color_white_15</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/divider_height</item>
+    </style>
+</resources>

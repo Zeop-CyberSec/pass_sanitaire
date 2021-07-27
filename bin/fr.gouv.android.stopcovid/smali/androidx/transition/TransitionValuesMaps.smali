@@ -1,0 +1,90 @@
+.class public Landroidx/transition/TransitionValuesMaps;
+.super Ljava/lang/Object;
+.source "TransitionValuesMaps.java"
+
+
+# instance fields
+.field public final mIdValues:Landroid/util/SparseArray;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/util/SparseArray<",
+            "Landroid/view/View;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final mItemIdValues:Landroidx/collection/LongSparseArray;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroidx/collection/LongSparseArray<",
+            "Landroid/view/View;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final mNameValues:Landroidx/collection/ArrayMap;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroidx/collection/ArrayMap<",
+            "Ljava/lang/String;",
+            "Landroid/view/View;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final mViewValues:Landroidx/collection/ArrayMap;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroidx/collection/ArrayMap<",
+            "Landroid/view/View;",
+            "Landroidx/transition/TransitionValues;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    new-instance v0, Landroidx/collection/ArrayMap;
+
+    invoke-direct {v0}, Landroidx/collection/ArrayMap;-><init>()V
+
+    iput-object v0, p0, Landroidx/transition/TransitionValuesMaps;->mViewValues:Landroidx/collection/ArrayMap;
+
+    .line 3
+    new-instance v0, Landroid/util/SparseArray;
+
+    invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
+
+    iput-object v0, p0, Landroidx/transition/TransitionValuesMaps;->mIdValues:Landroid/util/SparseArray;
+
+    .line 4
+    new-instance v0, Landroidx/collection/LongSparseArray;
+
+    const/16 v1, 0xa
+
+    .line 5
+    invoke-direct {v0, v1}, Landroidx/collection/LongSparseArray;-><init>(I)V
+
+    .line 6
+    iput-object v0, p0, Landroidx/transition/TransitionValuesMaps;->mItemIdValues:Landroidx/collection/LongSparseArray;
+
+    .line 7
+    new-instance v0, Landroidx/collection/ArrayMap;
+
+    invoke-direct {v0}, Landroidx/collection/ArrayMap;-><init>()V
+
+    iput-object v0, p0, Landroidx/transition/TransitionValuesMaps;->mNameValues:Landroidx/collection/ArrayMap;
+
+    return-void
+.end method

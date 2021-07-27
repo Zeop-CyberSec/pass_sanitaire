@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:theme="@style/ShapeAppearance.StopCovid.MediumComponent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_large" android:layout_marginRight="@dimen/spacing_large" android:foreground="?selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/spacing_large" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextAppearance.StopCovid.Title" android:id="@id/titleTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="false" />
+        <TextView android:textAppearance="@style/TextAppearance.StopCovid.Caption.Bold" android:textColor="?colorAccent" android:id="@id/modalityTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="false" />
+        <TextView android:textAppearance="@style/TextAppearance.StopCovid.Caption" android:id="@id/addressTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_medium" android:layout_marginBottom="@dimen/spacing_medium" android:textIsSelectable="false" />
+        <TextView android:textAppearance="@style/TextAppearance.StopCovid.Caption.Small.Grey" android:id="@id/openingDateHeaderTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="false" />
+        <TextView android:textAppearance="@style/TextAppearance.StopCovid.Caption" android:id="@id/openingDateTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="false" />
+        <TextView android:textAppearance="@style/TextAppearance.StopCovid.Caption" android:id="@id/openingTimeTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="false" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

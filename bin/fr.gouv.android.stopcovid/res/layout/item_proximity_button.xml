@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher android:id="@id/viewSwitcher" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.button.MaterialButton android:layout_gravity="center" android:id="@id/mainButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_large" android:layout_marginRight="@dimen/spacing_large" android:insetTop="0.0dip" android:insetBottom="0.0dip" android:textAllCaps="false" style="@style/Widget.StopCovid.Button" />
+    <com.google.android.material.button.MaterialButton android:layout_gravity="center" android:id="@id/lightButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_large" android:layout_marginRight="@dimen/spacing_large" android:insetTop="0.0dip" android:insetBottom="0.0dip" style="@style/Widget.StopCovid.Button.Light" />
+</ViewSwitcher>

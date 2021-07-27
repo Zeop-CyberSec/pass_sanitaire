@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:theme="@style/Theme.StopCovid.Widget.Attestation" android:id="@id/certificateWidgetLayout" android:background="@drawable/bg_widget" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/attestationImageView" android:layout_width="@dimen/qr_code_widget_size" android:layout_height="@dimen/qr_code_widget_size" android:layout_marginTop="@dimen/spacing_large" android:src="@drawable/attestation_card_reverse" android:importantForAccessibility="no" android:layout_marginStart="@dimen/spacing_medium" android:layout_alignParentEnd="true" />
+    <ImageView android:id="@id/qrCodeImageView" android:layout_width="@dimen/qr_code_widget_size" android:layout_height="@dimen/qr_code_widget_size" android:src="@drawable/ic_qr_code_scanner" android:layout_centerVertical="true" android:importantForAccessibility="no" android:layout_marginStart="@dimen/spacing_medium" android:layout_marginEnd="@dimen/spacing_medium" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/attestationImageView" android:layout_toEndOf="@id/qrCodeImageView">
+        <TextView android:id="@id/dateTextView" android:layout_width="fill_parent" android:layout_height="25.0dip" android:maxLines="1" android:textIsSelectable="false" android:textAlignment="textEnd" style="@style/Widget.StopCovid.Widget.Attestation.TextView.Date" />
+        <TextView android:ellipsize="end" android:id="@id/reasonTextView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="2" android:textIsSelectable="false" android:textAlignment="textEnd" style="@style/Widget.StopCovid.Widget.Attestation.TextView.Reason" />
+    </LinearLayout>
+</RelativeLayout>

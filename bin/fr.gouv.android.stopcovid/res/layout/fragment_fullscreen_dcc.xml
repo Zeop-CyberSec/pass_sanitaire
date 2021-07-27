@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="?colorSurface" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Space android:layout_width="0.0dip" android:layout_height="@dimen/spacing_xlarge" />
+        <ImageView android:id="@id/logosImageView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_large" android:layout_marginRight="@dimen/spacing_large" android:layout_marginBottom="@dimen/spacing_xlarge" android:src="@drawable/APKTOOL_DUMMY_cf" android:adjustViewBounds="true" />
+        <ImageView android:id="@id/barcodeImageView" android:layout_width="@dimen/qr_code_fullscreen_size" android:layout_height="@dimen/qr_code_fullscreen_size" android:layout_marginLeft="@dimen/spacing_large" android:layout_marginRight="@dimen/spacing_large" android:adjustViewBounds="true" />
+        <com.google.android.material.switchmaterial.SwitchMaterial android:textAppearance="@style/TextAppearance.StopCovid.Caption.Bold" android:id="@id/showMoreSwitch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_large" android:layout_marginRight="@dimen/spacing_large" app:switchPadding="@dimen/spacing_small" />
+        <TextView android:textAppearance="@style/TextAppearance.StopCovid.Title" android:gravity="center|top" android:id="@id/detailsTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_large" android:layout_marginTop="@dimen/spacing_medium" android:layout_marginRight="@dimen/spacing_large" />
+        <TextView android:textAppearance="@style/TextAppearance.StopCovid.Caption" android:id="@id/explanationTextView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/spacing_large" android:layout_marginTop="@dimen/spacing_medium" android:layout_marginRight="@dimen/spacing_large" />
+    </LinearLayout>
+</ScrollView>

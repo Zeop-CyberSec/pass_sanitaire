@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageSwitcher android:id="@id/imageSwitcher" android:padding="@dimen/spacing_xlarge" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/imageView1" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_play" android:scaleType="fitCenter" android:adjustViewBounds="true" android:importantForAccessibility="yes" app:tint="?colorControlNormal" />
+    <ImageView android:layout_gravity="center" android:id="@id/imageView2" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_pause" android:scaleType="fitCenter" android:adjustViewBounds="true" android:importantForAccessibility="yes" app:tint="?colorControlNormal" />
+</ImageSwitcher>

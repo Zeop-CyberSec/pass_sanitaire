@@ -1,0 +1,95 @@
+[
+	{
+        "section": "Info Coronavirus",
+        "links": [
+	        {
+                "label": "Go to gouvernement.fr",
+                "url": "https://www.gouvernement.fr/info-coronavirus"
+            }
+        ]
+    },
+    {
+        "section": "👉 Where to get your certificate",
+        "description" : "You can get your vaccination certificate on https://attestation-vaccin.ameli.fr/ and your test certificate on https://sidep.gouv.fr",
+        "links": [
+	        {
+                "label": "Your vaccination certificate",
+                "url": "https://attestation-vaccin.ameli.fr/"
+            },
+            {
+                "label": "Your test certificate",
+                "url": "https://sidep.gouv.fr/"
+            }
+        ]
+    },
+    {
+        "section": "✈️ Travel",
+        "description" : "Re-open EU provides information on the various measures in place in Europe. This should help you plan your travel in Europe, while staying safe and healthy.\n\nDiplomatie.gouv.fr gives you information for each country, in particular if you want to come to France.",
+        "links": [
+	        {
+                "label": "Go to Diplomatie.gouv.fr 🇫🇷",
+                "url": "https://www.diplomatie.gouv.fr/en/"
+            },
+	        {
+                "label": "Go to Re-open EU 🇪🇺",
+                "url": "https://reopen.europa.eu/en/from-to/FRA/"
+            }
+        ]
+    },
+    {
+        "section": "Where to get tested",
+        "description" : "To find out where to get tested, go to Santé.fr.",
+        "links": [
+	        {
+                "label": "Find where to get tested",
+                "url": "https://www.sante.fr/covid19/external/depistage?source=TousAntiCovid"
+            }
+        ]
+    },
+    {
+        "section": "Mes Conseils Covid",
+        "description" : "Find personalized advice on prevention and care on the Mes Conseils Covid website. Mes Conseils Covid is a service of the Ministère des Solidarités et de la Santé.",
+        "links": [
+	        {
+                "label": "Mes Conseils Covid",
+                "url": "https://mesconseilscovid.sante.gouv.fr/?source=TousAntiCovid#introduction"
+            }
+        ]
+    },
+    {
+        "section": "l'Assurance Maladie",
+        "description": "Here are several useful links provided by Ameli.fr, including contact tracing and at-risk contact person",
+        "links": [
+	        {
+                "label": "Contact tracing",
+                "url": "https://www.ameli.fr/assure/covid-19/tester-alerter-proteger-comprendre-la-strategie-pour-stopper-lepidemie/contact-tracing-arreter-les-chaines-de-transmission"
+            },
+            {
+				"label": "Are you a at-risk contact person?",
+                "url": "https://www.ameli.fr/assure/covid-19/en-cas-de-contact-avec-une-personne-malade-du-covid-19/en-cas-de-contact-avec-une-personne-malade-de-la-covid-19"
+
+            }
+            
+        ]
+    },
+    {
+        "section": "Cnam.BriserLaChaine.org",
+        "description" : "In collaboration with Assurance Maladie, the Cnam.BriserLaChaine.org website can help you remember all the people you have met.",
+        "links": [
+	        {
+                "label": "Go to Cnam.BriserLaChaine.org",
+                "url": "https://cnam.briserlachaine.org/accueil"
+            }
+        ]
+    },
+    {
+        "section": "Isolation",
+        "description" : "The Ministère des Solidarités et de la Santé has made information on isolation available.",
+        "links": [
+	        {
+                "label": "Isolation instructions",
+                "url": "https://solidarites-sante.gouv.fr/soins-et-maladies/maladies/maladies-infectieuses/coronavirus/professionnels-de-sante/article/ressources-documentaires-a-destination-des-professionnels-de-sante"
+            }
+        ]
+    }
+]

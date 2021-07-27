@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:id="@id/stateRadioGroup" android:paddingLeft="@dimen/spacing_large" android:paddingTop="@dimen/spacing_large" android:paddingRight="@dimen/spacing_large" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.StopCovid.Title" android:id="@id/groupTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RadioButton android:id="@id/yesRadioButton" android:paddingLeft="@dimen/spacing_large" android:paddingTop="@dimen/spacing_medium" android:paddingRight="@dimen/spacing_large" android:paddingBottom="@dimen/spacing_medium" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RadioButton android:id="@id/noRadioButton" android:paddingLeft="@dimen/spacing_large" android:paddingTop="@dimen/spacing_medium" android:paddingRight="@dimen/spacing_large" android:paddingBottom="@dimen/spacing_medium" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RadioGroup>

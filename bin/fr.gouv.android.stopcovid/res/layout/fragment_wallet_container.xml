@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.fragment.app.FragmentContainerView android:name="androidx.navigation.fragment.NavHostFragment" android:id="@id/walletNavHostFragment" android:layout_width="fill_parent" android:layout_height="0.0dip" app:defaultNavHost="true" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:layout_constraintBottom_toTopOf="@id/walletBottomSheetCard" app:layout_constraintTop_toTopOf="parent" app:navGraph="@navigation/nav_wallet" />
+    <Space android:id="@id/bottomSheetTopSpace" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_sheet_top_space_shadow_height" app:layout_constraintTop_toTopOf="@id/walletBottomSheetCard" />
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/bottom_sheet_top_shadow_height" app:layout_constraintBottom_toBottomOf="@id/bottomSheetTopSpace" layout="@layout/top_shadow" />
+    <com.google.android.material.card.MaterialCardView android:id="@id/walletBottomSheetCard" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardElevation="@dimen/bottom_sheet_card_elevation" app:layout_constraintBottom_toBottomOf="parent" style="@style/Widget.MaterialComponents.CardView">
+        <com.google.android.material.button.MaterialButton android:id="@id/walletBottomSheetButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_xlarge" android:layout_marginTop="@dimen/spacing_large" android:layout_marginRight="@dimen/spacing_xlarge" android:layout_marginBottom="@dimen/spacing_large" android:textAllCaps="false" style="@style/Widget.StopCovid.Button" />
+    </com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

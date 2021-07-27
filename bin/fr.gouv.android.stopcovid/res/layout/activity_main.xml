@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/snackBarView" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleTextAppearance="@style/TextAppearance.StopCovid.Title.Bold" />
+        <com.google.android.material.tabs.TabLayout android:id="@id/tabLayout" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.fragment.app.FragmentContainerView android:name="androidx.navigation.fragment.NavHostFragment" android:id="@id/navHostFragment" android:layout_width="fill_parent" android:layout_height="fill_parent" app:defaultNavHost="true" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:navGraph="@navigation/nav_main" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/errorLayout" android:background="@color/color_alert" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextAppearance.StopCovid.Alert" android:gravity="center" android:id="@id/errorTextView" android:background="?selectableItemBackground" android:paddingLeft="@dimen/spacing_xlarge" android:paddingTop="@dimen/spacing_medium" android:paddingRight="@dimen/spacing_xlarge" android:paddingBottom="@dimen/spacing_medium" android:focusable="true" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="false" />
+    </FrameLayout>
+    <com.lunabeestudio.stopcovid.coreui.custom.BlockingContentLoadingProgressBar android:id="@id/blockingProgressBar" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

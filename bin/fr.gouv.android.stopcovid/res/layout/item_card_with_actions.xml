@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_large" android:layout_marginRight="@dimen/spacing_large"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/rootLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/contentLayout" android:background="?selectableItemBackground" android:paddingTop="@dimen/spacing_medium" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/cardTitleTextView" android:paddingLeft="@dimen/spacing_large" android:paddingTop="@dimen/spacing_medium" android:paddingRight="@dimen/spacing_large" android:paddingBottom="@dimen/spacing_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/spacing_medium" app:drawableStartCompat="@drawable/ic_arrow_right" app:drawableTint="?colorAccent" style="@style/Theme.StopCovid.Link.Big" />
+            <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/mainLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="inherit">
+                <ImageView android:layout_gravity="bottom" android:id="@id/mainImageView" android:layout_width="wrap_content" android:layout_height="@dimen/card_image_height" android:importantForAccessibility="no" />
+                <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/spacing_large" android:paddingTop="@dimen/spacing_medium" android:paddingRight="@dimen/spacing_large" android:paddingBottom="@dimen/spacing_large" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textAppearance="@style/TextAppearance.StopCovid.Caption" android:id="@id/mainHeaderTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <TextView android:textAppearance="@style/TextAppearance.StopCovid.Title" android:id="@id/mainTitleTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <TextView android:textAppearance="@style/TextAppearance.StopCovid.Caption" android:ellipsize="end" android:id="@id/mainBodyTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_small" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/actionsLinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

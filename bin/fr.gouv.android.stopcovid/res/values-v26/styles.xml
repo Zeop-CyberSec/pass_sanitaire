@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V26.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V26.Theme.AppCompat.Light" />
+    <style name="Base.Widget.AppCompat.Toolbar" parent="@style/Base.V26.Widget.AppCompat.Toolbar" />
+    <style name="Widget.Design.AppBarLayout" parent="@android:style/Widget">
+        <item name="android:background">?colorPrimary</item>
+        <item name="android:stateListAnimator">@animator/design_appbar_state_list_animator</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+    <style name="Widget.StopCovid.Widget.Attestation.TextView.Date" parent="@style/Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/color_indigo</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:autoSizeMinTextSize">@dimen/date_widget_attestation_min_font_size</item>
+        <item name="android:autoSizeMaxTextSize">@dimen/date_widget_attestation_max_font_size</item>
+    </style>
+    <style name="Widget.StopCovid.Widget.Figures.TextView.SecondFigures.Value" parent="@style/Widget.MaterialComponents.TextView">
+        <item name="android:textSize">@dimen/widget_second_figure_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:autoSizeMinTextSize">@dimen/widget_second_figure_min_font_size</item>
+    </style>
+    <style name="Widget.StopCovid.Widget.TextView.Title" parent="@style/Widget.MaterialComponents.TextView">
+        <item name="android:textSize">@dimen/title_widget_font_size</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:autoSizeMinTextSize">@dimen/title_widget_min_font_size</item>
+    </style>
+    <style name="Base.V26.Theme.AppCompat" parent="@style/Base.V23.Theme.AppCompat">
+        <item name="colorError">?android:colorError</item>
+    </style>
+    <style name="Base.V26.Theme.AppCompat.Light" parent="@style/Base.V23.Theme.AppCompat.Light">
+        <item name="colorError">?android:colorError</item>
+    </style>
+    <style name="Base.V26.Widget.AppCompat.Toolbar" parent="@style/Base.V7.Widget.AppCompat.Toolbar">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+</resources>

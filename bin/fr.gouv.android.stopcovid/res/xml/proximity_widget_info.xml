@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:minWidth="@dimen/widget_3_column_width" android:minHeight="@dimen/widget_2_row_height" android:initialLayout="@layout/init_layout_proximity_widget" android:previewImage="@drawable/proximity_widget_preview" android:resizeMode="horizontal|vertical" android:minResizeHeight="@dimen/widget_1_row_height" android:widgetCategory="home_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

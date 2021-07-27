@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/linkRootLayout" android:background="?selectableItemBackground" android:padding="@dimen/spacing_large" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/leftIconImageView" android:layout_width="@dimen/icon_size" android:layout_height="@dimen/icon_size" android:scaleType="center" android:layout_marginEnd="@dimen/spacing_medium" app:tint="?colorPrimary" />
+    <TextView android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="false" style="@style/Theme.StopCovid.Link" />
+    <ImageView android:id="@id/arrowImageView" android:layout_width="@dimen/link_icon_size" android:layout_height="@dimen/link_icon_size" android:src="@drawable/ic_arrow_right" android:layout_marginStart="@dimen/spacing_small" app:tint="?colorControlNormal" />
+</LinearLayout>

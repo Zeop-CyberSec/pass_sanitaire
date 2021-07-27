@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_large" android:layout_marginTop="@dimen/spacing_small" android:layout_marginRight="@dimen/spacing_large" android:layout_marginBottom="@dimen/spacing_small" android:layout_marginHorizontal="@dimen/spacing_large" android:layout_marginVertical="@dimen/spacing_small"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/rootLayout" android:background="?selectableItemBackground" android:padding="@dimen/spacing_large" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextAppearance.StopCovid.Title" android:id="@id/mainTitleTextView" android:paddingTop="@dimen/spacing_medium" android:paddingBottom="@dimen/spacing_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="false" android:paddingVertical="@dimen/spacing_medium" />
+        <TextView android:textAppearance="@style/TextAppearance.StopCovid.Caption" android:id="@id/mainBodyTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_small" android:textIsSelectable="false" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/certificateImageView" android:background="@drawable/shape_document_stroke" android:layout_width="wrap_content" android:layout_height="@dimen/certificate_single_thumbnail_height" android:layout_marginTop="@dimen/spacing_large" android:src="@drawable/vaccin_europe_certificate" android:adjustViewBounds="true" android:importantForAccessibility="no" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

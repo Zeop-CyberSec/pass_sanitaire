@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar" android:id="@id/appBarLayout" android:background="@null" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/title" app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:background="@android:color/transparent" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="0.0dip" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.journeyapps.barcodescanner.BarcodeView android:id="@id/qrCodeReaderView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:background="@drawable/bg_qr_code" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textAppearance="@style/TextAppearance.StopCovid.Caption" android:textColor="@android:color/white" android:gravity="center" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_xlarge" android:layout_marginRight="@dimen/spacing_xlarge" android:textIsSelectable="false" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/appBarLayout" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/qr_code_placeholder" android:scaleType="centerInside" />
+</androidx.constraintlayout.widget.ConstraintLayout>

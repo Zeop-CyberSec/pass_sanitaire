@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_wallet" app:startDestination="@id/walletInfoFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.lunabeestudio.stopcovid.fragment.WalletInfoFragment" android:id="@id/walletInfoFragment">
+        <action android:id="@id/action_walletInfoFragment_to_walletPagerFragment" app:destination="@id/walletPagerFragment" app:enterAnim="@anim/nav_default_enter_anim" app:exitAnim="@anim/nav_default_exit_anim" app:popEnterAnim="@anim/nav_default_pop_enter_anim" app:popExitAnim="@anim/nav_default_pop_exit_anim" app:popUpTo="@id/nav_wallet" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:name="com.lunabeestudio.stopcovid.fragment.WalletPagerFragment" android:id="@id/walletPagerFragment">
+        <action android:id="@id/action_walletPagerFragment_to_walletInfoFragment" app:destination="@id/walletInfoFragment" app:enterAnim="@anim/nav_default_enter_anim" app:exitAnim="@anim/nav_default_exit_anim" app:popEnterAnim="@anim/nav_default_pop_enter_anim" app:popExitAnim="@anim/nav_default_pop_exit_anim" app:popUpTo="@id/nav_wallet" app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

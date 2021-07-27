@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="@style/TextAppearance.StopCovid.Caption.Small" android:id="@id/textView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_large" android:layout_marginTop="@dimen/spacing_small" android:layout_marginRight="@dimen/spacing_large" android:layout_marginBottom="@dimen/spacing_small" android:textIsSelectable="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

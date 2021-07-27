@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/snackBarView" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleTextAppearance="@style/TextAppearance.StopCovid.Title.Bold" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.fragment.app.FragmentContainerView android:name="androidx.navigation.fragment.NavHostFragment" android:id="@id/navHostFragment" android:layout_width="fill_parent" android:layout_height="fill_parent" app:defaultNavHost="true" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:navGraph="@navigation/nav_on_boarding" />
+    <include layout="@layout/layout_button_bottom_sheet" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

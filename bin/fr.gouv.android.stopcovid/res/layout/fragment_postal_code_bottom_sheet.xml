@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/spacing_large" android:paddingBottom="@dimen/spacing_large" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/bottom_sheet_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.button.MaterialButton android:id="@id/changeButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_large" android:layout_marginRight="@dimen/spacing_large" style="@style/Widget.StopCovid.Button" />
+    <com.google.android.material.button.MaterialButton android:id="@id/deleteButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_large" android:layout_marginRight="@dimen/spacing_large" style="@style/Widget.StopCovid.Button.Light" />
+    <com.google.android.material.button.MaterialButton android:id="@id/cancelButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_large" android:layout_marginRight="@dimen/spacing_large" style="@style/Widget.StopCovid.Button.Light" />
+</LinearLayout>

@@ -1,0 +1,95 @@
+[
+	{
+        "section": "Info Coronavirus",
+        "links": [
+	        {
+                "label": "Aller sur le site du gouvernement",
+                "url": "https://www.gouvernement.fr/info-coronavirus"
+            }
+        ]
+    },
+    {
+        "section": "👉 Où récupérer son certificat",
+        "description" : "Vous pouvez récupérer votre certificat de vaccination sur https://attestation-vaccin.ameli.fr/ et votre certificat de test sur https://sidep.gouv.fr",
+        "links": [
+	        {
+                "label": "Votre certificat de vaccination",
+                "url": "https://attestation-vaccin.ameli.fr/"
+            },
+            {
+                "label": "Votre certificat de test",
+                "url": "https://sidep.gouv.fr/"
+            }
+        ]
+    },
+    {
+        "section": "✈️ Voyager",
+        "description" : "\"Re-open EU\" (rouvrir l'Europe) fournit des informations sur les différentes mesures en place en Europe. Cela devrait vous aider à planifier votre voyage en Europe, tout en restant en sécurité et en santé.\n\nDiplomatie.gouv.fr vous donne également les informations par pays, si vous souhaitez voyager à l'étranger ou venir en France.",
+        "links": [
+	        {
+                "label": "Aller sur Diplomatie.gouv.fr 🇫🇷",
+                "url": "https://www.diplomatie.gouv.fr/fr/"
+            },
+             {
+                "label": "Aller sur Re-open EU 🇪🇺",
+                "url": "https://reopen.europa.eu/fr/from-to/FRA/"
+            }
+        ]
+    },
+    {
+        "section": "Où se faire dépister",
+        "description" : "Pour trouver où se faire dépister, rendez vous sur Santé.fr.",
+        "links": [
+	        {
+                "label": "Trouver où se faire dépister",
+                "url": "https://www.sante.fr/covid19/external/depistage?source=TousAntiCovid"
+            }
+        ]
+    },
+    {
+        "section": "Mes Conseils Covid",
+        "description" : "Retrouvez des conseils personnalisés de prévention et de prise en charge sur le site Mes Conseils Covid. Mes Conseils Covid est un service du ministère des Solidarités et de la Santé.",
+        "links": [
+	        {
+                "label": "Mes Conseils Covid",
+                "url": "https://mesconseilscovid.sante.gouv.fr/?source=TousAntiCovid#introduction"
+            }
+        ]
+    },
+    {
+        "section": "l'Assurance Maladie",
+        "description": "Voici plusieurs informations utiles fournies par Ameli.fr, au sujet du contact tracing et sur les personnes contact.",
+        "links": [
+	        {
+                "label": "Contact tracing",
+                "url": "https://www.ameli.fr/assure/covid-19/tester-alerter-proteger-comprendre-la-strategie-pour-stopper-lepidemie/contact-tracing-arreter-les-chaines-de-transmission"
+            },
+            {
+				"label": "Vous êtes une personne contact ?",
+                "url": "https://www.ameli.fr/assure/covid-19/en-cas-de-contact-avec-une-personne-malade-du-covid-19/en-cas-de-contact-avec-une-personne-malade-de-la-covid-19"
+
+            }
+            
+        ]
+    },
+    {
+        "section": "Cnam.BriserLaChaine.org",
+        "description" : "En collaboration avec l'Assurance Maladie, le site internet Cnam.BriserLaChaine.org peut vous aider à vous souvenir de toutes les personnes que vous avez croisées.",
+        "links": [
+	        {
+                "label": "Aller sur Cnam.BriserLaChaine.org",
+                "url": "https://cnam.briserlachaine.org/accueil"
+            }
+        ]
+    },
+    {
+        "section": "Isolement",
+        "description" : "Le Ministère des Solidarités et de la Santé a mis à disposition des informations sur l'isolement.",
+        "links": [
+	        {
+                "label": "Les consignes d’isolement",
+                "url": "https://solidarites-sante.gouv.fr/soins-et-maladies/maladies/maladies-infectieuses/coronavirus/professionnels-de-sante/article/ressources-documentaires-a-destination-des-professionnels-de-sante"
+            }
+        ]
+    }
+]

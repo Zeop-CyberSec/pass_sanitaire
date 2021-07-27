@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_on_boarding" app:startDestination="@id/onBoardingWelcomeFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <activity android:name="com.lunabeestudio.stopcovid.activity.MainActivity" android:id="@id/mainActivity">
+        <argument android:name="data" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+    </activity>
+    <fragment android:name="com.lunabeestudio.stopcovid.fragment.OnBoardingWelcomeFragment" android:id="@id/onBoardingWelcomeFragment">
+        <action android:id="@id/action_onBoardingWelcomeFragment_to_onBoardingExplanationFragment" app:destination="@id/onBoardingExplanationFragment" app:enterAnim="@anim/nav_slide_enter_anim" app:exitAnim="@anim/nav_slide_exit_anim" app:popEnterAnim="@anim/nav_slide_pop_enter_anim" app:popExitAnim="@anim/nav_slide_pop_exit_anim" />
+    </fragment>
+    <fragment android:name="com.lunabeestudio.stopcovid.fragment.OnBoardingExplanationFragment" android:id="@id/onBoardingExplanationFragment">
+        <action android:id="@id/action_onBoardingExplanationFragment_to_onBoardingPrivacyFragment" app:destination="@id/onBoardingPrivacyFragment" app:enterAnim="@anim/nav_slide_enter_anim" app:exitAnim="@anim/nav_slide_exit_anim" app:popEnterAnim="@anim/nav_slide_pop_enter_anim" app:popExitAnim="@anim/nav_slide_pop_exit_anim" />
+    </fragment>
+    <fragment android:name="com.lunabeestudio.stopcovid.fragment.OnBoardingPrivacyFragment" android:id="@id/onBoardingPrivacyFragment">
+        <action android:id="@id/action_onBoardingPrivacyFragment_to_onBoardingProximityFragment" app:destination="@id/onBoardingProximityFragment" app:enterAnim="@anim/nav_slide_enter_anim" app:exitAnim="@anim/nav_slide_exit_anim" app:popEnterAnim="@anim/nav_slide_pop_enter_anim" app:popExitAnim="@anim/nav_slide_pop_exit_anim" />
+    </fragment>
+    <fragment android:name="com.lunabeestudio.stopcovid.fragment.OnBoardingProximityFragment" android:id="@id/onBoardingProximityFragment">
+        <action android:id="@id/action_onBoardingProximityFragment_to_onBoardingNotificationFragment" app:destination="@id/onBoardingNotificationFragment" app:enterAnim="@anim/nav_slide_enter_anim" app:exitAnim="@anim/nav_slide_exit_anim" app:popEnterAnim="@anim/nav_slide_pop_enter_anim" app:popExitAnim="@anim/nav_slide_pop_exit_anim" />
+        <action android:id="@id/action_onBoardingProximityFragment_to_onBoardingBatteryFragment" app:destination="@id/onBoardingBatteryFragment" app:enterAnim="@anim/nav_slide_enter_anim" app:exitAnim="@anim/nav_slide_exit_anim" app:popEnterAnim="@anim/nav_slide_pop_enter_anim" app:popExitAnim="@anim/nav_slide_pop_exit_anim" />
+        <action android:id="@id/action_onBoardingProximityFragment_to_onBoardingNoBleFragment" app:destination="@id/onBoardingNoBleFragment" app:enterAnim="@anim/nav_slide_enter_anim" app:exitAnim="@anim/nav_slide_exit_anim" app:popEnterAnim="@anim/nav_slide_pop_enter_anim" app:popExitAnim="@anim/nav_slide_pop_exit_anim" />
+    </fragment>
+    <fragment android:name="com.lunabeestudio.stopcovid.fragment.OnBoardingNoBleFragment" android:id="@id/onBoardingNoBleFragment">
+        <action android:id="@id/action_onBoardingNoBleFragment_to_onBoardingGestureFragment" app:destination="@id/onBoardingGestureFragment" app:enterAnim="@anim/nav_slide_enter_anim" app:exitAnim="@anim/nav_slide_exit_anim" app:popEnterAnim="@anim/nav_slide_pop_enter_anim" app:popExitAnim="@anim/nav_slide_pop_exit_anim" />
+        <action android:id="@id/action_onBoardingNoBleFragment_to_onBoardingNotificationFragment" app:destination="@id/onBoardingNotificationFragment" app:enterAnim="@anim/nav_slide_enter_anim" app:exitAnim="@anim/nav_slide_exit_anim" app:popEnterAnim="@anim/nav_slide_pop_enter_anim" app:popExitAnim="@anim/nav_slide_pop_exit_anim" />
+    </fragment>
+    <fragment android:name="com.lunabeestudio.stopcovid.fragment.OnBoardingBatteryFragment" android:id="@id/onBoardingBatteryFragment">
+        <action android:id="@id/action_onBoardingBatteryFragment_to_onBoardingNotificationFragment" app:destination="@id/onBoardingNotificationFragment" app:enterAnim="@anim/nav_slide_enter_anim" app:exitAnim="@anim/nav_slide_exit_anim" app:popEnterAnim="@anim/nav_slide_pop_enter_anim" app:popExitAnim="@anim/nav_slide_pop_exit_anim" />
+    </fragment>
+    <fragment android:name="com.lunabeestudio.stopcovid.fragment.OnBoardingNotificationFragment" android:id="@id/onBoardingNotificationFragment">
+        <action android:id="@id/action_onBoardingNotificationFragment_to_onBoardingGestureFragment" app:destination="@id/onBoardingGestureFragment" app:enterAnim="@anim/nav_slide_enter_anim" app:exitAnim="@anim/nav_slide_exit_anim" app:popEnterAnim="@anim/nav_slide_pop_enter_anim" app:popExitAnim="@anim/nav_slide_pop_exit_anim" />
+        <action android:id="@id/action_onBoardingNotificationFragment_to_onBoardingVenuesFragment" app:destination="@id/onBoardingVenuesFragment" app:enterAnim="@anim/nav_slide_enter_anim" app:exitAnim="@anim/nav_slide_exit_anim" app:popEnterAnim="@anim/nav_slide_pop_enter_anim" app:popExitAnim="@anim/nav_slide_pop_exit_anim" />
+    </fragment>
+    <fragment android:name="com.lunabeestudio.stopcovid.fragment.OnBoardingVenuesFragment" android:id="@id/onBoardingVenuesFragment">
+        <action android:id="@id/action_onBoardingVenuesFragment_to_onBoardingGestureFragment" app:destination="@id/onBoardingGestureFragment" app:enterAnim="@anim/nav_default_enter_anim" app:exitAnim="@anim/nav_default_exit_anim" app:popEnterAnim="@anim/nav_default_pop_enter_anim" app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment android:name="com.lunabeestudio.stopcovid.fragment.OnBoardingGestureFragment" android:id="@id/onBoardingGestureFragment">
+        <action android:id="@id/action_onBoardingGestureFragment_to_mainActivity" app:destination="@id/mainActivity" app:enterAnim="@anim/nav_default_enter_anim" app:exitAnim="@anim/nav_default_exit_anim" app:popEnterAnim="@anim/nav_default_pop_enter_anim" app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+</navigation>

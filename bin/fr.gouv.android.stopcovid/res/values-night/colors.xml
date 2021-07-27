@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_east_bay">#ffb3b8e8</color>
+    <color name="color_error_light">#ff331716</color>
+    <color name="color_icon_background">#ff000000</color>
+    <color name="color_no_risk">#ff51c495</color>
+    <color name="color_on_primary">#ff00285a</color>
+    <color name="color_on_primary_light">#ffffffff</color>
+    <color name="color_primary_light">#2685bbff</color>
+</resources>
